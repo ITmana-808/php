@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:bookworm-slim
+FROM php:8.3.1-fpm
 
 # prevent Debian's PHP packages from being installed
 # https://github.com/docker-library/php/pull/542
